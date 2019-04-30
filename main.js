@@ -3,7 +3,7 @@ var rgb2 = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.r
 var rgb3 = 'rgb(' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ',' + (Math.floor(Math.random() * 256)) + ')';
 
 function setup(){
-  createCanvas(400,400);
+  createCanvas(800,800);
   background(rgb2);
 }
 function draw(){
